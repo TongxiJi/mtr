@@ -7,8 +7,8 @@ import (
 	"net"
 	"time"
 
+	"github.com/TongxiJi/mtr/pkg/icmp"
 	gm "github.com/buger/goterm"
-	"github.com/tonobo/mtr/pkg/icmp"
 )
 
 type HopStatistic struct {
